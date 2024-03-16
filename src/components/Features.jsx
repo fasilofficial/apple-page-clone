@@ -6,6 +6,7 @@ import gsap from 'gsap'
 
 const Features = () => {
   useGSAP(() => {
+    
     gsap.to("#exploreVideo", {
       scrollTrigger: {
         trigger: "#exploreVideo",
@@ -109,6 +110,7 @@ const Features = () => {
                   </p>
                 </div>
               </div>
+
             </div>
           </div>
         </div>
